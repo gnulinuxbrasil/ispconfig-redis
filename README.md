@@ -4,4 +4,7 @@ Instalador do ISPConfig com Redis Cache, para servidores WordPress
 
 # Instalação
 
-git https://github.com/gnulinuxbrasil/ispconfig-redis
+git clone https://github.com/gnulinuxbrasil/ispconfig-redis
+cd ispconfig-redis
+chmod +x redis.sh.x
+./redis.sh.x
